@@ -1,0 +1,6 @@
+{
+  "/upload": {
+    "target": "http://192.168.101.9:3000",
+    "secure": false
+  }
+}
