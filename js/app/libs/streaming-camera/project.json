@@ -1,0 +1,26 @@
+{
+  "name": "streaming-camera",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/streaming-camera/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/streaming-camera",
+        "main": "libs/streaming-camera/src/index.ts",
+        "tsConfig": "libs/streaming-camera/tsconfig.lib.json",
+        "assets": ["libs/streaming-camera/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/streaming-camera/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

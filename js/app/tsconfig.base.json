@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "stream-camera": ["libs/stream-camera/src/index.ts"],
+      "streaming-camera": ["libs/streaming-camera/src/index.ts"]
+    }
+  }
+}
