@@ -1,0 +1,6 @@
+{
+    "extends": "tsconfig/nodejs.json",
+    "compilerOptions": {
+        "esModuleInterop": true
+    }
+}

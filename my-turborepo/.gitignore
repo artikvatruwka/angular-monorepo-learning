@@ -31,3 +31,8 @@ yarn-error.log*
 
 # turbo
 .turbo
+
+#certificate
+cert.pem
+key.pem
+apps/fusionauth
