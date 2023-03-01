@@ -3,3 +3,4 @@
  */
 
 export * from './lib/camera-preview';
+export * from './lib/services/fusionauth-client';
